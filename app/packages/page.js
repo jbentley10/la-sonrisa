@@ -12,7 +12,7 @@ export default function Packages() {
   return (
     <main className={openSans.className}>
       <Heading text={"Packages"}/>
-      <div id="text-block" className="px-8">
+      <div id="text-block" className="px-8 h-48">
         <h3 className="text-2xl pb-2">Each package includes: </h3>
         <ul className="text-base list-disc px-8">
           <li>Friendly on-site attendant(s)</li>

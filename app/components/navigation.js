@@ -8,6 +8,7 @@ export default function Navigation() {
         <div id="navigation">
             <div id="navigation-links" className="flex flex-row justify-center items-center py-10">
                 <div className={openSans.className}>
+                    <Link className="px-4 hover:text-white transition ease-in-out duration-300" href="/">Home</Link>
                     <Link className="px-4 hover:text-white transition ease-in-out duration-300" href="/book-now">Book Now</Link>
                     <Link className="px-4 hover:text-white transition ease-in-out duration-300" href="/packages">Packages</Link>
                     <Link className="px-4 hover:text-white transition ease-in-out duration-300" href="/backdrops">Backdrops</Link>

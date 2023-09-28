@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div id="footer" className={openSans.className}>
             <div className="flex justify-center pt-6">
-                <Link  href="https://www.instagram.com/lasonrisaphotobooth/">
+                <Link target="blank" href="https://www.instagram.com/lasonrisaphotobooth/">
                     <FaInstagram className="text-4xl hover:text-white transition ease-in-out duration-300" />
                 </Link>
             </div>
