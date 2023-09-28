@@ -3,6 +3,11 @@ import { Open_Sans } from "next/font/google";
 
 const openSans = Open_Sans({ subsets: ["latin"], weight: ["300"] });
 
+export const metadata = {
+  title: 'Packages | La Sonrisa Photo Booth',
+  description: 'Learn about our pricing packages for reserving a photo booth for your event in LA, OC, or SD',
+}
+
 export default function Packages() {
   return (
     <main className={openSans.className}>
